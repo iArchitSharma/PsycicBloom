@@ -8,7 +8,8 @@ Clone the repository, install the dependencies and start the application
 ```bash
 git clone git@github.com:kamranahmedse/developer-roadmap.git
 npm install
-npm run dev
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
 ```
 
 Color Schemes - https://www.happyhues.co/palettes/3
