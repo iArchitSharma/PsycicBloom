@@ -567,15 +567,6 @@ video {
   overflow: hidden;
 }
 
-.bg-myCustom-bg {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 254 / var(--tw-bg-opacity));
-}
-
-.font-Roboto {
-  font-family: Roboto, sans-serif;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -588,16 +579,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.text-myCustom-700 {
-  --tw-text-opacity: 1;
-  color: rgb(151 118 105 / var(--tw-text-opacity));
-}
-
-.text-myCustom-headline {
-  --tw-text-opacity: 1;
-  color: rgb(9 64 103 / var(--tw-text-opacity));
 }
 
 .underline {
