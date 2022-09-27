@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}",
-  "./*.html",
+  content: ["./*.html",
   "./dist/**/*.{css}"],
   theme: {
     extend: {
@@ -16,11 +15,11 @@ module.exports = {
           '600': '#a18072',
           '700': '#977669',
           '800': '#846358',
-          '900': '#43302b',
-        },
+          '900': '#43302b'
+        }
       },
       fontFamily: {
-        'Roboto': ['Roboto', 'sans-serif'],
+        'Roboto': ['Roboto', 'sans-serif']
       },
     },
   },
