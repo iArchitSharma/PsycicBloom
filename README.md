@@ -11,6 +11,10 @@ npm install
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
 ```
+### Before pushing
+```bash
+npx tailwindcss -o build.css --minify
+```
 
 Color Schemes - https://www.happyhues.co/palettes/3
 
